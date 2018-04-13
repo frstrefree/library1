@@ -24,8 +24,8 @@
   (pad 3 thru_hole circle (at -0.635 4.02) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 3.175 1.48) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 1.905 4.02) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
-  (model /home/gki/google-drive/Hardware/Progetto/Versione_2/libraries/3D/Picoflex.wrl
-    (at (xyz 0 -0.11 0))
+  (model ../../../../../home/gki/google-drive/Hardware/Progetto/Versione_2/libraries/3D/Picoflex.wrl
+    (at (xyz 0 -0.1 0))
     (scale (xyz 0.4 0.4 0.4))
     (rotate (xyz -90 0 180))
   )
