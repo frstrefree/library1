@@ -11,12 +11,12 @@
 # Verified: Yes
 # Finished: Yes
 
-(module db:TO-263-4 (layer F.Cu) (tedit 599486CA)
+(module Daniel:TO-263-4 (layer F.Cu) (tedit 599486CA)
   (attr smd)
   (fp_text reference U1 (at 1.651 -0.4445) (layer F.Fab)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (fp_text value LM1085 (at 0 0) (layer F.Fab) hide
+  (fp_text value LM1085 (at -6.6 6.9) (layer F.Fab) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (fp_line (start 10 6.1) (end 10 -6) (layer F.Fab) (width 0.049784))
@@ -42,9 +42,9 @@
   (pad "" smd rect (at 5 0 180) (size 2.3 2.3) (layers F.Paste))
   (pad "" smd rect (at 5 -3 180) (size 2.3 2.3) (layers F.Paste))
   (pad "" smd rect (at 5 3 180) (size 2.3 2.3) (layers F.Paste))
-  (model smd_trans/d2-pak.wrl
-    (at (xyz -0.03 0 0))
-    (scale (xyz 1 1 1))
+  (model /home/gki/google-drive/Hardware/Progetto/Versione_2/libraries/3D/3v3reg.wrl
+    (at (xyz -0.25 0.2 0))
+    (scale (xyz 0.4 0.4 0.4))
     (rotate (xyz 0 0 90))
   )
 )
