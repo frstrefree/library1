@@ -1,4 +1,4 @@
-(module Diodes_SMD:D_MiniMELF_Standard (layer F.Cu) (tedit 5ABCB3BB)
+(module Daniel:D_SOD80 (layer F.Cu) (tedit 5ABCB3BB)
   (descr "Diode Mini-MELF Standard")
   (tags "Diode Mini-MELF Standard")
   (attr smd)
@@ -31,6 +31,11 @@
   (model Diodes_SMD.3dshapes/D_MiniMELF_Standard.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz 0 0 0))
+  )
+  (model /home/gki/google-drive/Hardware/Progetto/Versione_2/libraries/3D/sod80.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.4 0.4 0.4))
     (rotate (xyz 0 0 0))
   )
 )
